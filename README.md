@@ -11,4 +11,5 @@ The findMatches function is divided up as such:
 - binary search to find at least one occurence of the query
 - binary search to find first duplicate
 - binary search to find last duplicate
+
 So overall complexity is O(log n) + O(log n) + O(log n) = 3* O(log n) => O(log n)
